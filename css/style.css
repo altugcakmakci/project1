@@ -108,12 +108,16 @@ p {
     font-size: large;
     margin-bottom: 20px;
 }
+
 .contactForm label {
     text-align: center;
+    margin-bottom: 10px;
 }
+
 .contactForm input {
-    text-align: center;
+    text-align: left;
     display: inline-block;
+    margin-bottom: 10px;
     
 }
 
