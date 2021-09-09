@@ -58,10 +58,12 @@ p {
 /* hero class selector attributes set for the main image */
 .bluejayImage {
     display: block;
+    margin-top:10px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     padding:10px;
+    border: 5px solid blueviolet;
 }
 
 .caption {
@@ -95,16 +97,24 @@ p {
 .contactForm {
     padding: 30px;
     clear: both;
-    text-align: center;
     background-color: lightblue;
     border:10px;
+    text-align: center;
 }
 
 .contactForm h3 {
-    text-align:center;
+    text-align: center;
     color:darkblue;
     font-size: large;
     margin-bottom: 20px;
+}
+.contactForm label {
+    text-align: center;
+}
+.contactForm input {
+    text-align: center;
+    display: inline-block;
+    
 }
 
 /* footer class attributes set */
