@@ -102,6 +102,10 @@ p {
     text-align: center;
 }
 
+.contactBox {
+    border: 1px solid black;
+}
+
 .contactForm h3 {
     text-align: center;
     color:darkblue;
